@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calculator - Created by S.Mishra
+        </title>
+        <link rel="stylesheet" href="css/index.css">
+        
+        
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+
+        <div class="header-div">
+
+            <h1 id="header">Calculator</h1>
+            <h4 id="myname">Made by Subha Deep Mishra</h4>
+
+        </div>
+
+        <center class="main-center">
+<br>
+<br>
+        <div class="main">
+
+            
+                <center>
+                <div class="input">
+                    <center>
+                    <input type="number" placeholder="00" id="input">
+                    </center>
+                </div>
+            </center>
+                
+            
+        <br>
+
+        <div class="backclip"><div id="ans">Ans.</div><center><div id="result"></div></center></div>
+
+        <br>
+        <div class="select-div">
+            <select id="angle-unit">
+                <option>rad</option>
+                <option>deg</option>
+            </select>
+        </div>
+
+        
+
+        <div class="rowofbuttons">
+
+            
+            
+            <div class="colofbuttons">
+
+                <div class="btn-groups">
+                    <button class="btns btns-top" onclick="allclear()">AC</button>
+
+                    <button class="btns" onclick="exponent()" id="exponent1">x<sup>y</sup></button>
+                    <button class="btns" onclick="exponent2()" id="exponent2">x<sup>y</sup></button>
+
+                    <button class="btns" onclick="double()" id="double1">2x</button>
+                    <button class="btns" onclick="double2()" id="double2">2x</button>
+
+                    <button class="btns" onclick="reciprocal()" id="reciprocal1">1/x</button>
+                    <button class="btns" onclick="reciprocal2()" id="reciprocal2">1/x</button>
+
+                    <button class="btns btns-bottom" onclick="pie()">π</button>
+                </div>
+            </div>
+            <div class="colofbuttons">
+                <div class="btn-groups">
+                    <button class="btns btns-top" id="sqrt1" onclick="sqrt1()"><center>√</center></button>
+                    <button class="btns btns-top" id="sqrt2" onclick="sqrt2()"><center>√</center></button>
+
+                    <button class="btns" id="sin1" onclick="sin()"><center>sin</center></button>
+                    <button class="btns" id="sin2" onclick="sin2()"><center>sin</center></button>
+
+                    <button class="btns" id="cos1" onclick="cos()"><center>cos</center></button>
+                    <button class="btns" id="cos2" onclick="cos2()"><center>cos</center></button>
+
+                    <button class="btns" id="tan1" onclick="tan()"><center>tan</center></button>
+                    <button class="btns" id="tan2" onclick="tan2()"><center>tan</center></button>
+
+                    <button class="btns btns-bottom" id="log1" onclick="log()"><center>log</center></button>
+                    <button class="btns btns-bottom" id="log2" onclick="log2()"><center>log</center></button>
+                </div>
+            </div>
+
+
+            <div class="colofbuttons">
+        
+                <!-- buttons -->
+                <div class="btn-groups">
+                    <button class="btns btns-top" onclick="add()">+</button>
+
+                    <button class="btns" onclick="substract()" id="substract1">-</button>
+                    <button class="btns" onclick="substract2()" id="substract2">-</button>
+
+                    <button class="btns" onclick="multiply()" id="multiply1">×</button>
+                    <button class="btns" onclick="multiply_2()" id="multiply2">×</button>
+
+                    <button class="btns" onclick="divide()">÷</button>
+
+                    <button class="btns btns-bottom" onclick="answer()" id="answer1">=</button>
+                    <button class="btns btns-bottom" onclick="answer2()" id="answer2">=</button>
+        
+                </div>  <!--buttons ends-->
+            </div>
+
+        </div>  <!--row end-->
+
+        </div>
+        
+        <!-- main div end -->
+<br><br><br><br><br>
+        </center>
+
+        
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
