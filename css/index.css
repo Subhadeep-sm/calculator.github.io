@@ -64,9 +64,9 @@ body {
   z-index: -1;
 }
 
-.main:hover::after {
+/* .main:hover::after {
   animation: shadoweffect 1s infinite;
-}
+} */
 
 @keyframes backanimation {
   0% {
